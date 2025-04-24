@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="EncodableAsset" id="{0f6afd6d-f919-4f17-bced-e377f119c03c}">
+		<property name="assetPath">
+			<value>VFS_StudentSounds/METLImpt_Hammer inpact Metal_SD100 Dwayne Murray_VFS T6 Archive/</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{0007398a-8526-4222-84a0-9fc057cc09e5}</destination>
+		</relationship>
+	</object>
+</objects>

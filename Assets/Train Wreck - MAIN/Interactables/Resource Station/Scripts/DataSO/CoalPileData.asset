@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 45367484b78c6e542abd50f0b2cf56f6, type: 3}
+  m_Name: CoalPileData
+  m_EditorClassIdentifier: 
+  <AudioData>k__BackingField: {fileID: 11400000, guid: 1387ee84d735b5840815f2490980948a,
+    type: 2}
+  <Resource>k__BackingField: {fileID: 1882363216667429670, guid: 36c6d1b712c0dd54d815234a1aaed486,
+    type: 3}
+  <RequireItem>k__BackingField: {fileID: 11400000, guid: 319a71c5fc8e93846b8563449d88e0b7,
+    type: 2}
+  <OnInteractionInput>k__BackingField: {fileID: 11400000, guid: ac38f93f5f417b24c81ff7a46346936c,
+    type: 2}

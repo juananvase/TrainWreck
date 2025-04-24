@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e91cb2d93b6f8d746af75330606dd64d, type: 3}
+  m_Name: FireData
+  m_EditorClassIdentifier: 
+  <FirePrefab>k__BackingField: {fileID: 5161733832453722494, guid: b2ed33b3b7d78f24bbfc8d6751e75f7d,
+    type: 3}
+  <FireOnPlayerVFX>k__BackingField: {fileID: 4546770994429291195, guid: b456a1cee5f6de843af0b1eb4b69bc1e,
+    type: 3}
+  <NearbyObjectRadius>k__BackingField: 0.1
+  <DamageAmount>k__BackingField: 3
+  <FireSpawnDuration>k__BackingField: 0.5
+  <FireOnPlayerDuration>k__BackingField: 5
+  <Health>k__BackingField: 100
+  <HealDamagedAmount>k__BackingField: 10

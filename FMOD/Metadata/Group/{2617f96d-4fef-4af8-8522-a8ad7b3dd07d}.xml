@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="MixerGroup" id="{2617f96d-4fef-4af8-8522-a8ad7b3dd07d}">
+		<property name="name">
+			<value>JuanDX</value>
+		</property>
+		<property name="pitch">
+			<value>3</value>
+		</property>
+		<property name="maxInstances">
+			<value>1</value>
+		</property>
+		<relationship name="effectChain">
+			<destination>{836d41b5-8a6e-4a69-99de-65d54823d5de}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{91c210d6-7806-48d5-b982-d20a0b0b1a50}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{cfe40f71-15c2-4acd-9c32-56c734a18af6}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusEffectChain" id="{836d41b5-8a6e-4a69-99de-65d54823d5de}">
+		<relationship name="effects">
+			<destination>{2bee58dd-ab1d-4c83-ad8c-724364955235}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{91c210d6-7806-48d5-b982-d20a0b0b1a50}" />
+	<object class="MixerBusFader" id="{2bee58dd-ab1d-4c83-ad8c-724364955235}" />
+</objects>

@@ -1,0 +1,336 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 787555c7f78fe2d409e9fa3d3eb3698a, type: 3}
+  m_Name: SoundEffects
+  m_EditorClassIdentifier: 
+  <HopSFX>k__BackingField:
+    Guid:
+      Data1: -1559863092
+      Data2: 1100959774
+      Data3: -318595160
+      Data4: -1566802319
+    Path: event:/Hop
+  <ThrowSFX>k__BackingField:
+    Guid:
+      Data1: -750652807
+      Data2: 1113335279
+      Data3: -1282881408
+      Data4: 529213363
+    Path: event:/Throw
+  <EnemyGunSFX>k__BackingField:
+    Guid:
+      Data1: 1355290968
+      Data2: 1188803926
+      Data3: -1841683067
+      Data4: 645841065
+    Path: event:/EnemyGun
+  <BomberAppearanceSFX>k__BackingField:
+    Guid:
+      Data1: -1435426018
+      Data2: 1165247492
+      Data3: 981421188
+      Data4: -1136267650
+    Path: event:/BomberAppearance
+  <EnemyEntranceSFX>k__BackingField:
+    Guid:
+      Data1: 1066690769
+      Data2: 1324748144
+      Data3: -1563689338
+      Data4: 1282052731
+    Path: event:/EnemyEntrance
+  <EnemyDeathSFX>k__BackingField:
+    Guid:
+      Data1: -1240993384
+      Data2: 1337696165
+      Data3: 1626111915
+      Data4: -1676727976
+    Path: event:/EnemyDeath
+  <EnemyExplosionSFX>k__BackingField:
+    Guid:
+      Data1: 111338535
+      Data2: 1247417088
+      Data3: 854013854
+      Data4: 192977843
+    Path: event:/EnemyExplosion
+  <MachineGunSFX>k__BackingField:
+    Guid:
+      Data1: -818651884
+      Data2: 1094885950
+      Data3: -174442318
+      Data4: -1740058539
+    Path: event:/MachineGun
+  <ReloadingBulletsSFX>k__BackingField:
+    Guid:
+      Data1: 860990105
+      Data2: 1291882038
+      Data3: -223276145
+      Data4: 1227495572
+    Path: event:/ReloadingBullets
+  <PlaceWoodMaterial>k__BackingField:
+    Guid:
+      Data1: -1743008275
+      Data2: 1103241111
+      Data3: -1149505643
+      Data4: -1950675057
+    Path: event:/PlaceWoodMaterial
+  <BrokenWindowSFX>k__BackingField:
+    Guid:
+      Data1: -1633729921
+      Data2: 1178923559
+      Data3: 1385089166
+      Data4: 659106273
+    Path: event:/BreakingWindow
+  <BrokenPipeSFX>k__BackingField:
+    Guid:
+      Data1: -1909977358
+      Data2: 1164337544
+      Data3: -2113149523
+      Data4: 1725686250
+    Path: event:/BreakingPipe
+  <PlaceMetalMaterial>k__BackingField:
+    Guid:
+      Data1: 1158667556
+      Data2: 1098487724
+      Data3: -763350890
+      Data4: 981771418
+    Path: event:/PlaceMetalMaterial
+  <BombTickingSFX>k__BackingField:
+    Guid:
+      Data1: -1803674029
+      Data2: 1310420006
+      Data3: 848383140
+      Data4: 62502631
+    Path: event:/BombTicking
+  <BombExplosionSFX>k__BackingField:
+    Guid:
+      Data1: -1610412894
+      Data2: 1161546344
+      Data3: -939990370
+      Data4: 85362549
+    Path: event:/BombExplosion
+  <UseResourceStationSFX>k__BackingField:
+    Guid:
+      Data1: 1874120677
+      Data2: 1266894939
+      Data3: 1649374365
+      Data4: 193720468
+    Path: event:/UseResourceStation
+  <UseCoalPileSFX>k__BackingField:
+    Guid:
+      Data1: 490637652
+      Data2: 1286555961
+      Data3: -1104176764
+      Data4: 1893885029
+    Path: event:/CoalPilePickup
+  <ActiveLeverSFX>k__BackingField:
+    Guid:
+      Data1: -1433351852
+      Data2: 1146080746
+      Data3: -1638065731
+      Data4: 115715379
+    Path: event:/ActiveLever
+  <InActiveLeverSFX>k__BackingField:
+    Guid:
+      Data1: -1765283535
+      Data2: 1253868312
+      Data3: -2141920598
+      Data4: 1591786545
+    Path: event:/InactiveLever
+  <RepairedSFX>k__BackingField:
+    Guid:
+      Data1: -1006921833
+      Data2: 1253192914
+      Data3: -1291434594
+      Data4: 611924893
+    Path: event:/Repaired
+  <FixingSFX>k__BackingField:
+    Guid:
+      Data1: -380778695
+      Data2: 1287782994
+      Data3: -20903499
+      Data4: 205247822
+    Path: event:/Fixing
+  <FireBoxBurn>k__BackingField:
+    Guid:
+      Data1: 1863558838
+      Data2: 1216300973
+      Data3: -2044818009
+      Data4: -1682762145
+    Path: event:/FireboxBurning
+  <FuelingFirebox>k__BackingField:
+    Guid:
+      Data1: 1983061835
+      Data2: 1157549171
+      Data3: -1729870933
+      Data4: -142615980
+    Path: event:/FuelingFirebox
+  <GameMusic>k__BackingField:
+    Guid:
+      Data1: -674672272
+      Data2: 1310559303
+      Data3: 180635778
+      Data4: 209613880
+    Path: event:/GameMusic
+  <ExtinguisherSFX>k__BackingField:
+    Guid:
+      Data1: 1736825165
+      Data2: 1117586700
+      Data3: -637071722
+      Data4: 240022163
+    Path: event:/Extinguisher
+  <FireAlarmSFX>k__BackingField:
+    Guid:
+      Data1: -980895182
+      Data2: 1278362016
+      Data3: -597001304
+      Data4: 171083978
+    Path: event:/FireAlarm
+  <FireboxExplosionSFX>k__BackingField:
+    Guid:
+      Data1: 322121956
+      Data2: 1269005946
+      Data3: -160514386
+      Data4: -851232912
+    Path: event:/FireboxExplosion
+  <SteamSFX>k__BackingField:
+    Guid:
+      Data1: -817963637
+      Data2: 1124790393
+      Data3: -846008942
+      Data4: -14298494
+    Path: event:/Steam
+  <TrainMovingSFX>k__BackingField:
+    Guid:
+      Data1: -160964675
+      Data2: 1157226398
+      Data3: -804587609
+      Data4: -975201369
+    Path: event:/TrainMoving
+  <TrainIdleSFX>k__BackingField:
+    Guid:
+      Data1: -1580332820
+      Data2: 1188583248
+      Data3: -527496516
+      Data4: 1990197471
+    Path: event:/TrainIdle
+  <ChooChooSFX>k__BackingField:
+    Guid:
+      Data1: -105594599
+      Data2: 1223496759
+      Data3: 657093771
+      Data4: 259328572
+    Path: event:/ChooChoo
+  <TrainExplosionSFX>k__BackingField:
+    Guid:
+      Data1: -693633840
+      Data2: 1207165817
+      Data3: 221134469
+      Data4: 1238708522
+    Path: event:/TrainExplosion
+  <PickupPipeSFX>k__BackingField:
+    Guid:
+      Data1: -903929426
+      Data2: 1255913854
+      Data3: 1827286450
+      Data4: 1389117552
+    Path: event:/Pickup_Pipe
+  <PickupWoodSFX>k__BackingField:
+    Guid:
+      Data1: -2077957376
+      Data2: 1105568219
+      Data3: -842779501
+      Data4: -959289453
+    Path: event:/Pickup_Wood
+  <PickupBucketSFX>k__BackingField:
+    Guid:
+      Data1: -379436265
+      Data2: 1280439877
+      Data3: -44808515
+      Data4: 1538057916
+    Path: event:/Pickup_Bucket
+  <AmmoPickupSFX>k__BackingField:
+    Guid:
+      Data1: -33509474
+      Data2: 1109702188
+      Data3: -2068881022
+      Data4: 1647027630
+    Path: event:/Pickup_Ammo
+  <ExtinguisherPickupSFX>k__BackingField:
+    Guid:
+      Data1: 1901752909
+      Data2: 1320261522
+      Data3: 267102854
+      Data4: 1648052519
+    Path: event:/Pickup_FireExtinguisher
+  <BombPickupSFX>k__BackingField:
+    Guid:
+      Data1: -2054841332
+      Data2: 1308558075
+      Data3: 1731141252
+      Data4: -919734442
+    Path: event:/Pickup_Bomb
+  <DropPipeSFX>k__BackingField:
+    Guid:
+      Data1: 1422399157
+      Data2: 1113484580
+      Data3: -541805146
+      Data4: -590334742
+    Path: event:/Drop_Pipe
+  <DropWoodSFX>k__BackingField:
+    Guid:
+      Data1: -1469056218
+      Data2: 1274311680
+      Data3: 1101518229
+      Data4: 447509925
+    Path: event:/Drop_Wood
+  <DropBucketSFX>k__BackingField:
+    Guid:
+      Data1: -413401935
+      Data2: 1313314726
+      Data3: 277438901
+      Data4: 708225256
+    Path: event:/Drop_Bucket
+  <DropAmmoSFX>k__BackingField:
+    Guid:
+      Data1: -733643865
+      Data2: 1219827689
+      Data3: -710965600
+      Data4: -1407923442
+    Path: event:/Drop_Ammo
+  <DropExtinguisherSFX>k__BackingField:
+    Guid:
+      Data1: -342375924
+      Data2: 1225895894
+      Data3: 195626880
+      Data4: 1476351714
+    Path: event:/Drop_FireExtinguisher
+  <DropBombSFX>k__BackingField:
+    Guid:
+      Data1: 568849885
+      Data2: 1273121391
+      Data3: -2077986170
+      Data4: -1556041908
+    Path: event:/Drop_Bomb
+  <UISelectSFX>k__BackingField:
+    Guid:
+      Data1: -360497613
+      Data2: 1081841458
+      Data3: -255313515
+      Data4: 1382166370
+    Path: event:/UI/UISelect
+  <UIMoveSFX>k__BackingField:
+    Guid:
+      Data1: -673286322
+      Data2: 1161600586
+      Data3: 1686710438
+      Data4: 2072808222
+    Path: event:/UI/UIMove

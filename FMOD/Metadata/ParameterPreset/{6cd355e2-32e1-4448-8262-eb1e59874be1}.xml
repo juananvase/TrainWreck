@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="ParameterPreset" id="{6cd355e2-32e1-4448-8262-eb1e59874be1}">
+		<property name="name">
+			<value>CharacterSpeech</value>
+		</property>
+		<relationship name="folder">
+			<destination>{1fe3472f-553b-4a54-976e-510d10293c10}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{538107c0-fc52-4bee-bc24-ca215936ee07}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{538107c0-fc52-4bee-bc24-ca215936ee07}">
+		<property name="parameterType">
+			<value>2</value>
+		</property>
+		<property name="maximum">
+			<value>4</value>
+		</property>
+		<property name="enumerationLabels">
+			<value>Dashing</value>
+			<value>Throwing</value>
+			<value>OnFire</value>
+			<value>Stunned</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>

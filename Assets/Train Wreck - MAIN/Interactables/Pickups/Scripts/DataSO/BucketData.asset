@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: de4e75381e6ca1f459cc93756eb5210d, type: 3}
+  m_Name: BucketData
+  m_EditorClassIdentifier: 
+  <AudioData>k__BackingField: {fileID: 11400000, guid: 1387ee84d735b5840815f2490980948a,
+    type: 2}
+  <RequireItem>k__BackingField: {fileID: 0}
+  <TargetInteractable>k__BackingField: {fileID: 3903778549992474885, guid: 11880ab6e6d285a43bface2cae778cc8,
+    type: 3}
+  <VFX>k__BackingField: {fileID: 7185557080180478157, guid: b0587ebf39475224a9dbd767eb9305e5,
+    type: 3}

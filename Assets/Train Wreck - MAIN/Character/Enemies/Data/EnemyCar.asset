@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b853d18cbda1584991c2a44075027a6, type: 3}
+  m_Name: EnemyCar
+  m_EditorClassIdentifier: 
+  DrivingFrequency: {x: 0.75, y: 2}
+  DrivingMagnitude: {x: 0.75, y: 2}
+  InfiniteMagnitude: {x: 0.75, y: 2}
+  ShakeDuration: 3
+  PerlinSpeed: 5
+  PerlinOffset: {x: 0, y: 10}
+  <EnemyToStopTrain>k__BackingField: {x: 0, y: 0}
+  <EnemyToSlowTrainSpeed>k__BackingField: {x: 0.5, y: 1}
+  <EnemyToNormalTrainSpeed>k__BackingField: {x: 0.75, y: 2}
+  <EnemyToFastTrainSpeed>k__BackingField: {x: 1, y: 3}

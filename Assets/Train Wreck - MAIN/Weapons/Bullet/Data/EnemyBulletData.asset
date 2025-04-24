@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd53f3d18350a31438ca0915b40f203d, type: 3}
+  m_Name: EnemyBulletData
+  m_EditorClassIdentifier: 
+  <BulletPrefab>k__BackingField: {fileID: 7464581201518234520, guid: 5be36b87ec842c34780b273bb18d8522,
+    type: 3}
+  <Team>k__BackingField: 1
+  <MuzzleFlashVFX>k__BackingField: {fileID: 3823862344902371702, guid: 7ecb04e80f63e3145946bb885a80141b,
+    type: 3}
+  <HitVFX>k__BackingField: {fileID: 8068442665922571482, guid: 698fe18231c04444d9b50789765c01d7,
+    type: 3}
+  <InitialMaxBulletCount>k__BackingField: 100
+  <ReloadAmount>k__BackingField: 0
+  <ReloadTime>k__BackingField: 10
+  <Damage>k__BackingField: 5
+  <Range>k__BackingField: 100
+  <BulletVelocity>k__BackingField: 30
+  <FireRate>k__BackingField: 0.47
+  <Inaccuracy>k__BackingField: 0.01

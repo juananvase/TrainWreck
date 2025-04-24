@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/Train Wreck - MAIN/Co-Op/Animations/LobbyPlayerAnimController.controller.meta
+guid: 99848c87f5c930a459388b61a43562f4
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 9100000
+========
+guid: f5d2dbc911d57a048b2dbb65727a9214
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+>>>>>>>> develop:Assets/Train Wreck - MAIN/VertexShader/Shader/VertexDisplacement_MAT.mat.meta
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

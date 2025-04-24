@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fdd98b0df9b3416f980c4bc333f4011d, type: 3}
+  m_Name: EnemyData
+  m_EditorClassIdentifier: 
+  enemyConfigs:
+  - <Health>k__BackingField: 20
+    <ShootDelay>k__BackingField: 1.5
+    <InitialShootDelay>k__BackingField: 0.1
+    <SwitchingDuration>k__BackingField: 5
+    <InitialDelay>k__BackingField: 0
+    <EnemySpawnDelay>k__BackingField: 6
+    <EnemyToWreckedTrainSpeed>k__BackingField: 6
+    <EnemyToSlowTrainSpeed>k__BackingField: 4
+    <EnemyToNormalTrainSpeed>k__BackingField: 2
+    <EnemyToFastTrainSpeed>k__BackingField: 1
+    <BombThrowDelay>k__BackingField: 10
+    <CanSpawnEnemies>k__BackingField: 1
+  - <Health>k__BackingField: 100
+    <ShootDelay>k__BackingField: 1.3
+    <InitialShootDelay>k__BackingField: 0.5
+    <SwitchingDuration>k__BackingField: 3
+    <InitialDelay>k__BackingField: 1.5
+    <EnemySpawnDelay>k__BackingField: 3
+    <EnemyToWreckedTrainSpeed>k__BackingField: 12
+    <EnemyToSlowTrainSpeed>k__BackingField: 9
+    <EnemyToNormalTrainSpeed>k__BackingField: 6
+    <EnemyToFastTrainSpeed>k__BackingField: 5
+    <BombThrowDelay>k__BackingField: 15
+    <CanSpawnEnemies>k__BackingField: 1
+  - <Health>k__BackingField: 140
+    <ShootDelay>k__BackingField: 1
+    <InitialShootDelay>k__BackingField: 0.5
+    <SwitchingDuration>k__BackingField: 3
+    <InitialDelay>k__BackingField: 1.5
+    <EnemySpawnDelay>k__BackingField: 3
+    <EnemyToWreckedTrainSpeed>k__BackingField: 15
+    <EnemyToSlowTrainSpeed>k__BackingField: 10
+    <EnemyToNormalTrainSpeed>k__BackingField: 6
+    <EnemyToFastTrainSpeed>k__BackingField: 3
+    <BombThrowDelay>k__BackingField: 12
+    <CanSpawnEnemies>k__BackingField: 1
+  - <Health>k__BackingField: 35
+    <ShootDelay>k__BackingField: 0.8
+    <InitialShootDelay>k__BackingField: 0.5
+    <SwitchingDuration>k__BackingField: 5
+    <InitialDelay>k__BackingField: 0.5
+    <EnemySpawnDelay>k__BackingField: 2
+    <EnemyToWreckedTrainSpeed>k__BackingField: 20
+    <EnemyToSlowTrainSpeed>k__BackingField: 18
+    <EnemyToNormalTrainSpeed>k__BackingField: 12
+    <EnemyToFastTrainSpeed>k__BackingField: 8
+    <BombThrowDelay>k__BackingField: 15
+    <CanSpawnEnemies>k__BackingField: 1

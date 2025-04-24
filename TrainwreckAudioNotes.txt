@@ -1,0 +1,11 @@
+03/19/2025
+
+Interesting that you made a scriptable object to hold all of the FMOD references. The FMOD system. FMOD also uses scriptable object to store all the information about the events and parameters. You can find these in Plugins/FMOD/Cache/Editor. 
+
+The way the fire alarm is set up, it gets called multiple times because you seem to multiple fires. I would put the fire alarm call on the base class so it only makes one instance. I'd also set up individual fire sfx 3d emitters 
+for each instance of a fire and destroy them as the fires get put out...
+
+It turns out that, to share a profiler session with someone who is hooked up the github repo, you only need to grab the contents of the profile session folder. It can be found in FMOD/Metadata/ProfilerSession...
+
+You don't seem to have any collision sounds on the interactable objects - I think you should - players can bump into these things and they move - I find it weird that the bucket is silent. I think the extinguisher, the bucket, the metal pipe 
+and the wood thing should all have full collision sound support

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="ParameterPreset" id="{b0eb885c-418f-4029-8f4f-143291a64260}">
+		<property name="name">
+			<value>Ticking Rate</value>
+		</property>
+		<relationship name="folder">
+			<destination>{1fe3472f-553b-4a54-976e-510d10293c10}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{d262fd19-377b-4f5d-b428-e9e8af9e3c6b}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{d262fd19-377b-4f5d-b428-e9e8af9e3c6b}">
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>

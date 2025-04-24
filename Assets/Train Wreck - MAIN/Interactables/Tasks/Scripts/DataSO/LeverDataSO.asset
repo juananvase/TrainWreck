@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 04c6cd1ae90631d4dbbb2546e3758238, type: 3}
+  m_Name: LeverDataSO
+  m_EditorClassIdentifier: 
+  <AudioData>k__BackingField: {fileID: 11400000, guid: 1387ee84d735b5840815f2490980948a,
+    type: 2}
+  <TaskType>k__BackingField: 0
+  <RequireItem>k__BackingField: {fileID: 0}
+  <ContinuedInteractionDistance>k__BackingField: 4
+  <OnGameLost>k__BackingField: {fileID: 11400000, guid: 1e24fef3fb669ae44b64b337296f92ee,
+    type: 2}
+  <OnInteractionInput>k__BackingField: {fileID: 11400000, guid: ac38f93f5f417b24c81ff7a46346936c,
+    type: 2}

@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2cc541a8e0d185a46bedb383c38d0e74, type: 3}
+  m_Name: FireboxDataSO
+  m_EditorClassIdentifier: 
+  <AudioData>k__BackingField: {fileID: 11400000, guid: 1387ee84d735b5840815f2490980948a,
+    type: 2}
+  <TaskType>k__BackingField: 0
+  <RequireItem>k__BackingField: {fileID: 11400000, guid: a94c0b30ade09a54c8be838256d615a9,
+    type: 2}
+  <ContinuedInteractionDistance>k__BackingField: 4
+  <OnGameLost>k__BackingField: {fileID: 11400000, guid: 1e24fef3fb669ae44b64b337296f92ee,
+    type: 2}
+  <OnWinLevel>k__BackingField: {fileID: 11400000, guid: 0a2de29919fbcf745afc28fe1864caa0,
+    type: 2}
+  <OnInteractionInput>k__BackingField: {fileID: 11400000, guid: ac38f93f5f417b24c81ff7a46346936c,
+    type: 2}
+  <OnFuelLevelUpdated>k__BackingField: {fileID: 11400000, guid: 6f43d8ee21905d348a61a77fa757e993,
+    type: 2}
+  <FuelAdded>k__BackingField: 36
+  <FuelConsumptionRate>k__BackingField: 3
+  <FuelConsumptionAmount>k__BackingField: 8
+  <InitialFuelLevel>k__BackingField: 0
+  <MaxFuelLevel>k__BackingField: 111
+  <CurrentFuelLevel>k__BackingField: 4.750903
+  <LowThreshold>k__BackingField: 1
+  <MediumThreshold>k__BackingField: 80
+  <OptimumThreshold>k__BackingField: 95
+  <OverclockThreshold>k__BackingField: 100
+  <OverloadThreshold>k__BackingField: 110
+  <NormalFireboxColor>k__BackingField: {r: 0.30980393, g: 0.30980393, b: 0.30980393,
+    a: 1}
+  <heatedFireboxColor>k__BackingField: {r: 0.5882353, g: 0, b: 0, a: 1}

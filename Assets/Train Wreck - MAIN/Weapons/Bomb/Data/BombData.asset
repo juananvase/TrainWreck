@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6850902930b89554388817fc8dfbafa0, type: 3}
+  m_Name: BombData
+  m_EditorClassIdentifier: 
+  <RequireItem>k__BackingField: {fileID: 0}
+  <OnGameLost>k__BackingField: {fileID: 11400000, guid: 1e24fef3fb669ae44b64b337296f92ee,
+    type: 2}
+  <ExplosionDelay>k__BackingField: 10
+  <Range>k__BackingField: 5
+  <DamageToBreakableObjects>k__BackingField: 100
+  <DamageToEnemies>k__BackingField: 100
+  <DamageToTrain>k__BackingField: 30
+  <BombVelocity>k__BackingField: 35
+  <BombPrefab>k__BackingField: {fileID: 3409724104219706488, guid: b4f997d3c1297254590ba9f20dca0abb,
+    type: 3}
+  <ExplosionOnHanVFX>k__BackingField: {fileID: 3113150298433442719, guid: fc781a6acf7c18a4880b146d45379272,
+    type: 3}
+  <ExplosionOnFloorVFX>k__BackingField: {fileID: 8899286931747821040, guid: 017355f32ff08d844aae8c40ca4256c6,
+    type: 3}
+  <TrainFloorLayerMask>k__BackingField:
+    serializedVersion: 2
+    m_Bits: 1024

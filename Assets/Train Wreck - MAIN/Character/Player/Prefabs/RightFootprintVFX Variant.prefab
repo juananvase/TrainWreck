@@ -1,0 +1,109 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &9221149681776314205
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 3913010656499624720, guid: 91914ceb7d59e6c46bc56315b4b67fe3,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 24.666851
+      objectReference: {fileID: 0}
+    - target: {fileID: 3913010656499624720, guid: 91914ceb7d59e6c46bc56315b4b67fe3,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 8.328181
+      objectReference: {fileID: 0}
+    - target: {fileID: 3913010656499624720, guid: 91914ceb7d59e6c46bc56315b4b67fe3,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -6.099989
+      objectReference: {fileID: 0}
+    - target: {fileID: 3913010656499624720, guid: 91914ceb7d59e6c46bc56315b4b67fe3,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 3913010656499624720, guid: 91914ceb7d59e6c46bc56315b4b67fe3,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 3913010656499624720, guid: 91914ceb7d59e6c46bc56315b4b67fe3,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3913010656499624720, guid: 91914ceb7d59e6c46bc56315b4b67fe3,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3913010656499624720, guid: 91914ceb7d59e6c46bc56315b4b67fe3,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3913010656499624720, guid: 91914ceb7d59e6c46bc56315b4b67fe3,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3913010656499624720, guid: 91914ceb7d59e6c46bc56315b4b67fe3,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5692622346896503913, guid: 91914ceb7d59e6c46bc56315b4b67fe3,
+        type: 3}
+      propertyPath: m_Name
+      value: RightFootprintVFX Variant
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 5692622346896503913, guid: 91914ceb7d59e6c46bc56315b4b67fe3,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 382521210198018225}
+  m_SourcePrefab: {fileID: 100100000, guid: 91914ceb7d59e6c46bc56315b4b67fe3, type: 3}
+--- !u!1 &3528670478389261108 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5692622346896503913, guid: 91914ceb7d59e6c46bc56315b4b67fe3,
+    type: 3}
+  m_PrefabInstance: {fileID: 9221149681776314205}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &382521210198018225
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3528670478389261108}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 81a911c84e453e141957ec7116717a7b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  <PoolSize>k__BackingField: 10
+  <LogCreation>k__BackingField: 1
+  lifespan: 10
+  opacity: {fileID: 8413232611043228372}
+  timeLeft: 0
+--- !u!114 &8413232611043228372 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 808911510583475593, guid: 91914ceb7d59e6c46bc56315b4b67fe3,
+    type: 3}
+  m_PrefabInstance: {fileID: 9221149681776314205}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3528670478389261108}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f19d9143a39eb3b46bc4563e9889cfbd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

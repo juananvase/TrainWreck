@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 863744f46842428c90005c2b088019a8, type: 3}
+  m_Name: PlayerData
+  m_EditorClassIdentifier: 
+  <MoveSpeed>k__BackingField: 10
+  <Acceleration>k__BackingField: 10
+  <RotationSpeed>k__BackingField: 10
+  <RotationSpeedMultiplier>k__BackingField: 1
+  <Gravity>k__BackingField: -20
+  <KnockbackForceToOther>k__BackingField: 10
+  <UpwardDirection>k__BackingField: {x: 0, y: 0, z: 0}
+  <RandomDirectionChangeInterval>k__BackingField: 1
+  <MinBounds>k__BackingField: {x: 1, y: 1, z: 1}
+  <MaxBounds>k__BackingField: {x: 10, y: 1, z: 5}
+  <MaxRespawnTime>k__BackingField: 3
+  <OnFireSpeed>k__BackingField: 80
+  <OnFireDestroyDuration>k__BackingField: 1.75
+  <StunDuration>k__BackingField: 1.5
+  <StunInVulnerabilityDuration>k__BackingField: 3
+  <VelocityThreshold>k__BackingField: 5
+  <ThrowForce>k__BackingField: 30
+  <DashDistance>k__BackingField: 2
+  <DefaultDashDistance>k__BackingField: 2
+  <DashSpeed>k__BackingField: 2
+  <DashToWallDistance>k__BackingField: 0.0001
+  <DashDuration>k__BackingField: 0.5
+  <DashCooldown>k__BackingField: 0.25
+  <DashTrailDuration>k__BackingField: 2
+  <DashHeight>k__BackingField: 4
+  <InteractionRange>k__BackingField: {x: 0.75, y: 2, z: 0.75}
+  <InteractionOffset>k__BackingField: {x: 0, y: -0.5, z: -0.1}
+  <GroundCheckDistance>k__BackingField: 1
+  <GroundCheckOffset>k__BackingField: 0.4
+  <GroundMask>k__BackingField:
+    serializedVersion: 2
+    m_Bits: 1024
+  <InteractableMask>k__BackingField:
+    serializedVersion: 2
+    m_Bits: 4096
+  <TrainLayerMask>k__BackingField:
+    serializedVersion: 2
+    m_Bits: 2048
+  <PlayerLayerMask>k__BackingField:
+    serializedVersion: 2
+    m_Bits: 131072
+  <OnPassingPlayerInputComponent>k__BackingField: {fileID: 11400000, guid: c7119e3880ab9ac44aaacefd83f0615d,
+    type: 2}
+  <OnPausingGame>k__BackingField: {fileID: 11400000, guid: 600993ba5192a3d4cbd115715cde78d2,
+    type: 2}
+  <OnUnpausingGame>k__BackingField: {fileID: 11400000, guid: c8f7ab0f2c0c9c34ba38177ee6f16cb4,
+    type: 2}
+  <OnBombExplodeInHand>k__BackingField: {fileID: 11400000, guid: 31f7c697b44d1be4291916e1efced586,
+    type: 2}

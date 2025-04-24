@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/Train Wreck - MAIN/Co-Op/Animations.meta
+guid: 4cd6a147cd41bb448b37d223b4947c62
+folderAsset: yes
+DefaultImporter:
+  externalObjects: {}
+========
+guid: cbcd41dedc1f1bd42848d5efbefda5eb
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+>>>>>>>> develop:Assets/Train Wreck - MAIN/Character/Player/Textures/AimCircle-David.mat.meta
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

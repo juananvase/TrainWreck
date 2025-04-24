@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5dbb289ae5a3cf24b80cb7fb72726adf, type: 3}
+  m_Name: PipeDataSO
+  m_EditorClassIdentifier: 
+  <AudioData>k__BackingField: {fileID: 11400000, guid: 1387ee84d735b5840815f2490980948a,
+    type: 2}
+  <TaskType>k__BackingField: 1
+  <RequireItem>k__BackingField: {fileID: 11400000, guid: a9b63af0ec3a5f84694ba494ffc1bea3,
+    type: 2}
+  <ContinuedInteractionDistance>k__BackingField: 4
+  <OnGameLost>k__BackingField: {fileID: 11400000, guid: 1e24fef3fb669ae44b64b337296f92ee,
+    type: 2}
+  <OnInteractionInput>k__BackingField: {fileID: 11400000, guid: ac38f93f5f417b24c81ff7a46346936c,
+    type: 2}
+  <Health>k__BackingField: 15
+  <OnDamageTrain>k__BackingField: {fileID: 11400000, guid: 297c8114f58ae5f4fb28f4a130c14223,
+    type: 2}
+  <OnHealingTrain>k__BackingField: {fileID: 11400000, guid: a5a5c9c25403e714886d240ed1674778,
+    type: 2}
+  <OnBreakObject>k__BackingField: {fileID: 11400000, guid: fbb67aefe8843cc468dc0facdc0a5b6e,
+    type: 2}
+  <OnRepairObject>k__BackingField: {fileID: 11400000, guid: 5262a9a1202a38247aaa77b160b8a9b9,
+    type: 2}
+  <RepairAmountPerInitialInteraction>k__BackingField: 3
+  <TimeToFinishRepairing>k__BackingField: 1.5
+  <TrainHealAmount>k__BackingField: 40
+  <TrainDamageAmount>k__BackingField: 35
+  <InvulnerabilityAfterRepaired>k__BackingField: 5
+  <BrokenFill>k__BackingField: {fileID: 1270773056420990477, guid: d9513fc81ccded845a530c05997b0c66,
+    type: 3}
+  <SteamVFXPrefab>k__BackingField: {fileID: 2087714525957337640, guid: 7b749edb692b1bb439412e4f9f4e3a9f,
+    type: 3}

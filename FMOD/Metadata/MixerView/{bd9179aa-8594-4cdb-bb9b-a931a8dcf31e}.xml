@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="UiMixerView" id="{bd9179aa-8594-4cdb-bb9b-a931a8dcf31e}">
+		<property name="name">
+			<value>SFX</value>
+		</property>
+		<relationship name="assignedStrips">
+			<destination>{175c9fbe-5ae8-41f1-a6ae-2c0079f33b39}</destination>
+			<destination>{3bf59bde-78ae-4a26-8603-424378304b15}</destination>
+			<destination>{d4398f10-f22f-460c-90d6-7efd1cc1cd3b}</destination>
+			<destination>{73e2f9d4-fab2-4914-be92-0dd0436de52e}</destination>
+			<destination>{0b9335fb-0b3f-4159-ad7f-4ceeb586ed31}</destination>
+			<destination>{f2001b27-fc97-4b5e-b56f-36e5608aa495}</destination>
+			<destination>{773afc66-6597-4d2f-a194-666a0f7d2061}</destination>
+			<destination>{2410ef73-9a48-41b9-855a-86e6a38dbcd1}</destination>
+			<destination>{3e093244-cfb4-4864-88e2-d9de638e4998}</destination>
+			<destination>{7e465554-0db9-4e36-8939-c9cb8b8ae4f7}</destination>
+			<destination>{0cce48ac-b986-4208-bc06-7a09199e4ce0}</destination>
+			<destination>{251426b1-19b4-439c-a08c-e46645a5fcb4}</destination>
+			<destination>{1e04814c-f829-4e0b-a1ce-fc27bd526a09}</destination>
+			<destination>{95914b12-2299-496c-8d8b-0a1014a5bbae}</destination>
+			<destination>{06b9f390-11ed-4418-b690-f26f0ba71c80}</destination>
+			<destination>{e9e1def4-1943-4bcc-8004-ff660fa46e81}</destination>
+			<destination>{a5ff140d-df50-4fc4-818d-4658fbbfdae6}</destination>
+		</relationship>
+		<relationship name="mixer">
+			<destination>{a411aa95-e250-4143-8c2e-069c398563d5}</destination>
+		</relationship>
+	</object>
+</objects>
